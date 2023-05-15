@@ -1,0 +1,40 @@
+@import (reference) "./tokens.less";
+
+:global {
+  //baby reset
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  //daw baby
+
+  body {
+    background: @gr_5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    color: @ui_text_100;
+    text-decoration: none;
+  }
+
+  h5 {
+    margin-top: 0;
+    text-align: left;
+  }
+
+  #react-mount {
+  }
+}
