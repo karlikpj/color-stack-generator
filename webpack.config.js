@@ -108,7 +108,7 @@ const config = {
     }),
     new HtmlWebpackPlugin({
       css: "styles/styles.css",
-      title: "USWDS | Color Stack Generator and Editor",
+      title: "Color Stack Generator and Editor",
       favicon: "./resources/images/favicon.png",
       template: "./resources/templates/template.ejs",
       inject: "body",
